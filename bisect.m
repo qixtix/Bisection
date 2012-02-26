@@ -50,7 +50,7 @@ end%if
 iter = 0;
 ea = 100;
 
-while((iter < maxit) && (ea < es))
+while((iter < maxit) && (es < ea))
 
 	if (iter > 0)
 		xold = xr;
